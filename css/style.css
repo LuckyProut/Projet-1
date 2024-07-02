@@ -1,6 +1,10 @@
+
+
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 :root {
@@ -21,6 +25,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -57,6 +62,58 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+/****** header **********/
+
+
+.logo {
+    width: 80px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    bottom:12px; 
+    
+}
+
+.entete {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.menu li {
+    margin-inline-start: 100px;
+    border-top: solid transparent; 
+    padding-top: 24px; 
+    position: relative; 
+    bottom: 24px;
+}
+
+.menu li:hover {
+    transition: border-color 0.3s ease;
+    border-top-color: #0065FC;
+    color: #0065FC;
+}
+
+/******main********/
+
+h1 {
+    font-size:25px;
+}
+
+h2 {
+font-size: medium;
+font-weight: normal;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
