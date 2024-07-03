@@ -67,12 +67,11 @@ a {
 
 
 .logo {
-    width: 80px;
+    width: 61.09px;
+    height: 19px;
     display: flex;
-    align-items: flex-start;
-    position: relative;
-    bottom:12px; 
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .entete {
@@ -85,8 +84,6 @@ a {
 .menu {
     list-style-type: none;
     display: flex;
-    align-items: flex-start;
-    padding: 0;
 }
 
 .menu li {
@@ -110,9 +107,62 @@ h1 {
 }
 
 h2 {
-font-size: medium;
-font-weight: normal;
+    font-size: medium;
+    font-weight: normal;
 }
+
+/*******recherche*********/
+
+.recherche {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    width: 377px;
+}
+
+.bouton {
+    background-color: #0065FC;
+    color: #ffffff;
+    border: transparent;
+    height: 49px;
+    width: 120px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+}
+
+.bouton:active {
+    transition: border-color 0.3s ease;
+    background-color: #1d77ff;
+}
+
+.map {
+    background-color: lightgrey;
+    border: transparent;
+    height: 49px;
+    width: 49px;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map:active {
+    transition: border-color 0.3s ease;
+    background-color: rgb(235, 235, 235);
+}
+
+.research input[type="search"] {
+    height: 49px;
+    font-size: 16px; 
+    font-weight: bold;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: lightgrey;
+    border-width: 1px;
+    padding-left: 20px;
+}
+
 
 
 /****** Hebergements And Populaires ***********/
