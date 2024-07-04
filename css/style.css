@@ -106,7 +106,7 @@ h1 {
     font-size:25px;
 }
 
-h2 {
+.text-basic {
     font-size: medium;
     font-weight: normal;
 }
@@ -116,8 +116,6 @@ h2 {
 .recherche {
     display: flex;
     align-items: center;
-    height: 49px;
-    width: 377px;
 }
 
 .bouton {
@@ -223,6 +221,38 @@ h2 {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards {
+    
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 30%;
+}
+
+.hebergements-cards img {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 124px;
+}
+
+.hebergements-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 
 /****** Populaires ***********/
